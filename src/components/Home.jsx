@@ -60,7 +60,7 @@ function Home() {
           />
         );
       })}
-      <i class="fa-solid fa-3x fa-circle-plus" onClick={() => {setModalOpen(true);}} style={{color: "black", marginLeft: "1400px", marginBottom: "80px" }}></i>
+      <i class="fa-solid fa-3x fa-circle-plus" onClick={() => {setModalOpen(true);}} style={{color: "black", marginBottom: "80px" }}></i>
       {modalOpen && <AddShop  onAdd={addShop} setOpenModal={setModalOpen} />}
     </div>
   )

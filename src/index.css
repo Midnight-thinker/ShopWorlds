@@ -44,3 +44,27 @@ i{
   color: red;
   font-size: .6rem;
 }
+@media (max-width: 1600px){
+  .fa-circle-plus{
+      margin-left: 1400px;
+  }
+}
+
+@media (max-width: 1338px){
+  .fa-circle-plus{
+      margin-left: 1000px;
+  }
+}
+
+@media (max-width: 1000px){
+  .fa-circle-plus{
+      margin-left: 700px;
+  }
+}
+
+@media (max-width: 658px){
+  .fa-circle-plus{
+      margin-left: 400px;
+  }
+}
+

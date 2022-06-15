@@ -70,8 +70,9 @@ export const AddShop = (props) => {
           <TextField label="Category" value={shop.category}  name="category" onChange={handleChange} />
           <TextField label="Location"  value={shop.location}  name="location" onChange={handleChange} />
           <TextField label="Status"  value={shop.status}  name="status" onChange={handleChange} />
-          <button className='btn btn-primary my-3' onClick={() => {props.setOpenModal(false);submitshop();}} type='submit'>Add</button>
+          <button className='btn btn-primary my-3' onClick={() => {submitshop();props.setOpenModal(false);}} type='submit'>Add</button>
           <button className='btn btn-danger mx-3' type="reset">Reset</button>
+          <button className='btn btn-secondary my-3' onClick={() => {props.setOpenModal(false);}} type='submit'>Close</button>
        </Form>
       </div>
       </div>
