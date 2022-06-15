@@ -12,6 +12,7 @@ function Nagpur(props) {
           <p class="card-text">Location: {props.location}</p>
           <p class="card-text">Status: {props.status}</p>
           <a href="#" class="btn btn-primary">Check</a>
+          <i class="fa-solid fa-trash" style={{ marginLeft:"85px"}}></i>
         </div>
       </div>
     }

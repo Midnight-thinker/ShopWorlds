@@ -30,6 +30,7 @@ import {
   Route,
 } from "react-router-dom";
 
+
 function App() {
   return (
     <>
@@ -201,6 +202,7 @@ function App() {
       <Closed picture={grocery2} heading="Fresh vegies" category="Grocery" location="Madras" status="Open" />
       </div>
       } />
+      {/* <Route exact path="/closed" element={   } /> */}
       </Routes>
       </div>
       </BrowserRouter>
